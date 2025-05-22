@@ -1,0 +1,37 @@
+1. LRM (左から右のマーク) : ‎これはLTRテキストです。
+2. RLM (右から左のマーク) : ‏זה טקסט בעברית.
+3. ZWJ (ゼロ幅結合子) : ن‍ـ
+4. ZWNJ (ゼロ幅非結合子) : ن‌ـ
+5. LRE (左から右の埋め込み) : ‪مرحبا بالعالم!‬
+6. RLE (右から左の埋め込み) : ‫Hello, world!‬
+7. LRO (左から右の上書き) : ‭مرحبا بالعالم!‬
+8. RLO (右から左の上書き) : ‮Hello, world!‬
+9. PDF (方向フォーマットの終了) : ‪Left to Right‬ 終了後通常表示。
+10. NADS (国別数字形状の置換) : ⁮123456⁯
+11. NODS (標準数字形状) : ⁯١٢٣٤٥٦
+12. ASS (対称記号の置換有効) : ⁪<‬>
+13. ISS (対称記号の置換無効) : ⁫<‬>
+14. AAFS (アラビア文字形状変化有効) : ⁬سلام⁭
+15. IAFS (アラビア文字形状変化無効) : ⁭سلام
+16. RS (レコード区切り) : 記録1記録2
+17. US (ユニット区切り) : セグメントAセグメントB
+18. 
+19. 
+20. LRM	Left-to-right mark	09876‎54321
+21. RLM	Right-to-left mark	123‎45‏67890
+22. ZWJ	Zero width joiner	abcde‍fghijklmn
+23. ZWNJ	Zero width non-joiner	abcde‌fghijklmn
+24. LRE	Start of left-to-right embedding	abcdef‪012345
+25. RLE	Start of right-to-left embedding	abcdef‫012345
+26. LRO	Start of left-to-right override		abcdef‭012345
+27. RLO	Start of right-to-left override		abcdef‮012345
+28. PDF	Pop directional formatting	abcdef‬012345
+29. NADS	National digit shapes substitution	abcdef⁮012345
+30. NODS	Nominal (European) digit shapes		abcdef⁯012345
+31. ASS	Activate symmetric swapping	abcdef<⁫>012345
+32. ISS	Inhibit symmetric swapping	abcdef<⁪⁭>012345
+33. AAFS	Activate Arabic form shaping	abcdef012345
+34. IAFS	Inhibit Arabic from shaping	abcdef⁬012345
+35. RS	Record Separator (Block separator)	abcdef012345
+36. US	Unit separatoe (Segment separator)	abcdef012345
+37. 
